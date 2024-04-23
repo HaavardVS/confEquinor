@@ -1,0 +1,17 @@
+# For oppsett av Fluentd 
+
+# Installere Fluentd
+curl -fsSL https://toolbelt.treasuredata.com/sh/install-redhat-fluent-package5-lts.sh | sh
+
+# Installere Prometheus Fluentd-plugin
+fluent-gem install fluent-plugin-prometheus
+
+# Flytt til fluent-mappen og endre fluentd.conf
+cd /etc/fluent
+
+<details>
+  <summary>Kopier dette</summary>
+
+  # kode
+  
+</details>
