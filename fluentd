@@ -6,12 +6,11 @@ curl -fsSL https://toolbelt.treasuredata.com/sh/install-redhat-fluent-package5-l
 # Installere Prometheus Fluentd-plugin
 fluent-gem install fluent-plugin-prometheus
 
-# Flytt til fluent-mappen og endre fluentd.conf
+# Flytt til fluent-mappen og kopier innholdet fra "fluentd.conf.KOPIER" filen til /etc/fluent/fluentd.conf
 cd /etc/fluent
+# *kopier*
 
-<details>
-  <summary>Kopier dette</summary>
+# Kjør fluentd (må være i /etc/fluentd dir)
+fluentd -c fluentd.conf &
 
-  # kode
-  
-</details>
+# For å stoppe: ctrl + z
