@@ -1,4 +1,4 @@
-# /etc/systemd/system/fluentd.service
+# /etc/systemd/system/
 
 [Unit]
 Description=Fluentd
