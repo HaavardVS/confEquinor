@@ -10,7 +10,8 @@ fluent-gem install fluent-plugin-prometheus fluent-plugin-grafana-loki fluent-pl
 
 # Flytt til fluent-mappen og kopier innholdet fra "fluentd.conf.KOPIER" filen til /etc/fluent/fluentd.conf
 cd /etc/fluent
-# *kopier*
+
+# Kopiere fluentd.conf dit
 
 # Gjør log filene readable
 chmod a+r -R /opt/jfrog/artifactory/var/log
