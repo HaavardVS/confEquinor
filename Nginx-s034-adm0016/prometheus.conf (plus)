@@ -5,11 +5,11 @@ js_import /usr/share/nginx-plus-module-prometheus/prometheus.js;
 server {
     listen 8080;
     
-    location = /metrics {
+    location /metrics {
         js_content prometheus.metrics;
     }
  
-    location = /api {
+    location /api {
         api;
     } 
 }
