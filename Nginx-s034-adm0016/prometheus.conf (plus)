@@ -9,7 +9,7 @@ server {
         js_content prometheus.metrics;
     }
  
-    location /api {
+    location = /api {
         api;
     } 
 }
